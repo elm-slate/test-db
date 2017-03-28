@@ -1,0 +1,30 @@
+{
+  "name": "@elm-slate/test-db",
+  "version": "0.0.0",
+  "description": "",
+  "bin": {
+    "slate-loadPersonData": "lib/loadPersonData.js",
+    "slate-loadPerfTestData": "lib/loadPerfTestData.js",
+    "slate-loadEvents": "lib/loadEvents.js",
+    "slate-eventsDiff": "lib/eventsDiff.js"
+  },
+  "license": "Unlicense",
+  "dependencies": {
+    "@elm-slate/db-utils": "git://github.com/elm-slate/db-utils.git",
+    "@elm-slate/db-events": "git://github.com/elm-slate/db-events.git",
+    "bunyan": "^1.8.9",
+    "bunyan-format": "^0.2.1",
+    "co": "^4.6.0",
+    "co-read": "^0.1.1",
+    "commander": "^2.9.0",
+    "faker": "^4.1.0",
+    "is_js": "^0.9.0",
+    "node-uuid": "^1.4.8",
+    "ramda": "^0.23.0"
+  },
+  "scripts": {
+    "patch": "npm version patch && git push --follow-tags",
+    "minor": "npm version minor && git push --follow-tags"
+  },
+  "author": ""
+}
