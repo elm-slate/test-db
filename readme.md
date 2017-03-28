@@ -9,7 +9,7 @@ In addition, there is also a program that will compare the events tables in two 
 `test-db` programs require node version 6 or greater.
 
 # Installation
-> npm install -g @elm-slate/test-db
+> npm install -g git://github.com/elm-slate/test-db
 
 ## Test Tools
 
